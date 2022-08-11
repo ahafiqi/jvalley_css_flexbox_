@@ -146,3 +146,36 @@ section {
 .justify_evenly {
   justify-content: space-evenly;
 }
+
+/* vertikal */
+.align_center {
+  height: 300px;
+  align-items: center;
+}
+
+.align_start {
+  height: 300px;
+  align-items: flex-start;
+}
+
+.align_end {
+  height: 300px;
+  align-items: flex-end;
+}
+
+.align_stretch {
+  height: 300px;
+  align-items: stretch;
+}
+
+/* initial tidak diatur sizenya karena mengikuti panjang elementnya */
+.initial_height div {
+  height: initial;
+  background-color: blue;
+}
+
+.align_baseline {
+  height: 300px;
+  align-items:baseline;
+}
+
